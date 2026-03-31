@@ -1,5 +1,7 @@
 body {
     background-color: bisque;
+    display: flex;
+
 }
 
 div {
@@ -9,15 +11,17 @@ div {
 }
 
 section {
-    margin-bottom: 100px;
+    margin: auto;
 }
 
 #polonia .branco,
-#holanda .branco {
+#holanda .branco,
+#Tailandia .branco {
     background-color: white;
 }
 
-#polonia .vermelho {
+#polonia .vermelho,
+#Tailandia .vermelho{
     background-color: red;
 }
 
@@ -25,6 +29,15 @@ section {
     background-color: orange;
 }
 
-#holanda .azul {
+#holanda .azul,
+#Tailandia .azul {
     background-color: blue;
+}
+
+#Tailandia .vermelho {
+    height: 70px;
+}
+
+#Tailandia .branco {
+    height: 70px;
 }
