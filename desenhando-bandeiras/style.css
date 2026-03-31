@@ -1,0 +1,30 @@
+body {
+    background-color: bisque;
+}
+
+div {
+    height: 100px;
+    width: 300px;
+    border-radius: 4px;
+}
+
+section {
+    margin-bottom: 100px;
+}
+
+#polonia .branco,
+#holanda .branco {
+    background-color: white;
+}
+
+#polonia .vermelho {
+    background-color: red;
+}
+
+#holanda .laranja {
+    background-color: orange;
+}
+
+#holanda .azul {
+    background-color: blue;
+}
